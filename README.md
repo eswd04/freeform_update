@@ -7,8 +7,7 @@
 
 如果你有什么问题可以提issue,但我也不一定会去看。想要内容更新或者应用的功能后续维护请找该应用的原开发者。本人并不打算继续更新下去,(没有动力,你懂的,所以我能做的就是能用就行了，不然我也会继续完善下去)，该版本仅为个人在兴趣之余，为提供在 Android 12上（Android 11也行）的稳定使用而进行构建。 
 
-官方版本链接：
-![GitHub](https://github.com/sunshine0523/Mi-FreeForm)
+官方版本链接：[GitHub](https://github.com/sunshine0523/Mi-FreeForm)
 
 
 if you want to run stably , you need to use Xposed Framework.
