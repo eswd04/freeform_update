@@ -1,4 +1,23 @@
-# Note
+
+
+## 现已构建出能够在Android 8 以及 Android 10 上稳定运行的版本
+
+（Android 9未测试）。若要稳定运行，需要配合Xposed框架使用。用不了Xposed框架的用户建议不要安装使用该项目内的任何版本
+
+> 支持Android 8的版本暂未上传，~~仅上传了支持Android 10 的版本。~~支持Android 10 的版本近期上传，如需加速上传，请进telegrem群组内开启加速包来加速上传
+
+Now Avaliable a version can run stably on Android 8 ,and needs to use the Xposed Framework.
+
+Users who can't use the Xposed Framework are adviced not to use this version
+
+> The version that supports Android 8 has not been uploaded yet.
+
+
+ver13 will support Android10 stabley.（not uploaded yet.）
+
+
+# 说明（Note）
+
 软件需要使用xposed框架来保证应用的稳定运行,如果你直接安装，你会得到一个和官方版本有着几乎同样体验的的应用.
 
 因此，我的建议是：如果你没有使用Xposed框架(如Lsposed这些框架)，建议你还是去使用官方版本，因为官方版本来说更为好用。
@@ -9,6 +28,7 @@
 
 官方版本链接：[GitHub](https://github.com/sunshine0523/Mi-FreeForm)
 
+修改版下载：<a href="https://github.com/eswd04/freeform_update/releases"> 跳转下载（download）</a>
 
 if you want to run stably , you need to use Xposed Framework.
 or you get the same experience as the official version.
@@ -16,8 +36,49 @@ or you get the same experience as the official version.
 So my suggestion is , if you don't have Xposed ( or Lsposed etc ),you best to use officail package.
 This version is build for Xposed users to use. 
 
+# Q&A
+
+**稳定运行是什么意思?**
+
+稳定运行意味着你打开QQ或者WhatApp这类应用时，应用能稳定的在小窗中打开
 
 
-# freeform_update
-用于更新米窗修改版本的仓库
+**这个项目的应用有什么特殊的问题（bug）存在吗**
+
+1. 旋转屏幕（自行体会）
+2. 大小缩放，仅支持同比例缩放，不支持改宽高
+3. 其他bug应该和官方发行的版本bug一致
+
+以上bug看心情修，或者等官方版本吧
+
+
+
+**这个项目有什么特别的吗？**
+
+1. 现已支持在Android 10 - Android 12上稳定运行
+2. 支持应用在退出后自动关闭小窗
+3. 其他自行体会
+
+
+**能把应用完善并做得更好吗？**
+
+。。。这个我不发表意见
+
+
+**支持Android 8 （9）的版本呢？**
+
+未上传，反正官方也在内测，不如找官方开发者进入内测？
+
+或者使用你的超能力加速我或者原开发者的上传进度。
+
+
+**Android 9 的版本呢？**
+
+没有设备不好测试，应该也可以稳定运行
+
+
+
+# 下载地址（Download）
+
+用于更新米窗修改版本的仓库：请转到Release页面下载
 release:<a href="https://github.com/eswd04/freeform_update/releases"> 跳转下载（download）</a>
