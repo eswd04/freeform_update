@@ -1,4 +1,4 @@
-
+**
 
 ## 现已构建出能够在Android 8 以及 Android 10 上稳定运行的版本(已上传在Android10上的稳定版本 Ver13)
 
@@ -80,4 +80,5 @@ This version is build for Xposed users to use.
 release:<a href="https://github.com/eswd04/freeform_update/releases"> 跳转下载（download）</a>
 
 # Other
-QQ ： 1712865977
+QQ ： 1712865977 （别骚扰我哦 ^_^ ）
+**
