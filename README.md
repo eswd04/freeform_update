@@ -1,10 +1,10 @@
 
 
-## 现已构建出能够在Android 8 以及 Android 10 上稳定运行的版本
+## 现已构建出能够在Android 8 以及 Android 10 上稳定运行的版本(已上传在Android10上的稳定版本 Ver13)
 
 （Android 9未测试）。若要稳定运行，需要配合Xposed框架使用。用不了Xposed框架的用户建议不要安装使用该项目内的任何版本
 
-> 支持Android 8的版本暂未上传，~~仅上传了支持Android 10 的版本。~~支持Android 10 的版本近期上传，如需加速上传，请进telegrem群组内开启加速包来加速上传
+> 支持Android 8的版本暂未上传，仅上传了支持Android 10 的版本。~~支持Android 10 的版本近期上传，如需加速上传，请进telegrem群组内开启加速包来加速上传~~
 
 Now Avaliable a version can run stably on Android 8 ,and needs to use the Xposed Framework.
 
@@ -13,7 +13,7 @@ Users who can't use the Xposed Framework are adviced not to use this version
 > The version that supports Android 8 has not been uploaded yet.
 
 
-ver13 will support Android10 stabley.（not uploaded yet.）
+ver13 support Android 10 stably！
 
 
 # 说明（Note）
@@ -59,26 +59,25 @@ This version is build for Xposed users to use.
 2. 支持应用在退出后自动关闭小窗
 3. 其他自行体会
 
-
 **能把应用完善并做得更好吗？**
 
 。。。这个我不发表意见
 
-
 **支持Android 8 （9）的版本呢？**
+想使用？充钱吧骚年！（建议等官方版本，等等党最后的胜利！）
+该版本暂未上传，反正官方也在内测，不如直接找官方开发者进入内测？
 
-未上传，反正官方也在内测，不如找官方开发者进入内测？
-
-或者使用你的超能力加速我或者原开发者的上传进度。
-
-
-**Android 9 的版本呢？**
-
+**支持Android 9 的版本呢？**
 没有设备不好测试，应该也可以稳定运行
 
+**有没有打算支持到Android 5.0 - Android 7.1 ？**
+实现应该是没问题，但是......
 
 
 # 下载地址（Download）
 
 用于更新米窗修改版本的仓库：请转到Release页面下载
 release:<a href="https://github.com/eswd04/freeform_update/releases"> 跳转下载（download）</a>
+
+# Other
+QQ ： 1712865977
