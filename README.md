@@ -64,13 +64,16 @@ This version is build for Xposed users to use.
 。。。这个我不发表意见
 
 **支持Android 8 （9）的版本呢？**
+
 想使用？充钱吧骚年！（建议等官方版本，等等党最后的胜利！）
 该版本暂未上传，反正官方也在内测，不如直接找官方开发者进入内测？
 
 **支持Android 9 的版本呢？**
+
 没有设备不好测试，应该也可以稳定运行
 
 **有没有打算支持到Android 5.0 - Android 7.1 ？**
+
 实现应该是没问题，但是......
 
 
@@ -80,5 +83,6 @@ This version is build for Xposed users to use.
 release:<a href="https://github.com/eswd04/freeform_update/releases"> 跳转下载（download）</a>
 
 # Other
+
 QQ ： 1712865977 （别骚扰我哦 ^_^ ）
 **
