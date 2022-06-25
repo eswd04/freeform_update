@@ -29,6 +29,7 @@ ver13 support Android 10 stably！
 官方版本链接：[GitHub](https://github.com/sunshine0523/Mi-FreeForm)
 
 修改版下载：<a href="https://github.com/eswd04/freeform_update/releases"> 跳转下载（download）</a>
+国内用户请访问：<a href="https://eswd.lanzouj.com/b0rijuti">国内地址下载</a>
 
 if you want to run stably , you need to use Xposed Framework.
 or you get the same experience as the official version.
@@ -81,6 +82,8 @@ This version is build for Xposed users to use.
 
 用于更新米窗修改版本的仓库：请转到Release页面下载
 release:<a href="https://github.com/eswd04/freeform_update/releases"> 跳转下载（download）</a>
+
+国内用户请访问：<a href="https://eswd.lanzouj.com/b0rijuti">国内下载</a>
 
 # Other
 
