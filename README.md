@@ -21,8 +21,9 @@ ver13 support Android 10 stably！
 为了能让我做出更好用的产品让你们使用，你可以向我捐赠。向我捐赠的就是我的金主爸爸！
 You can donate to me that I can make a better app for you
 
-![支付宝](https://github.com/eswd04/freeform_update/blob/main/eswd_alipay.jpg?raw=true)
-![微信](https://github.com/eswd04/freeform_update/blob/main/eswd_mm.png?raw=true)
+<img href="https://github.com/eswd04/freeform_update/blob/main/eswd_alipay.jpg?raw=true" alt="支付宝" style="max-width:30%;"/>
+<img href="https://github.com/eswd04/freeform_update/blob/main/eswd_mm.png?raw=true" alt="微信" style="max-width:30%;"/>
+
 
 <a href="https://qr.alipay.com/fkx16389aa8c5ayxrqbetbd">手机跳转支付宝</a>
 
