@@ -16,6 +16,16 @@ Users who can't use the Xposed Framework are adviced not to use this version
 ver13 support Android 10 stably！
 
 
+# 捐赠 (Donate ：Only support wechat and alipay)
+
+为了能让我做出更好用的产品让你们使用，你可以向我捐赠。向我捐赠的就是我的金主爸爸！
+You can donate to me that I can make a better app for you
+
+![支付宝](https://github.com/eswd04/freeform_update/blob/main/eswd_alipay.jpg?raw=true)
+![微信](https://github.com/eswd04/freeform_update/blob/main/eswd_mm.png?raw=true)
+
+<a href="https://qr.alipay.com/fkx16389aa8c5ayxrqbetbd">手机跳转支付宝</a>
+
 # 说明（Note）
 
 软件需要使用xposed框架来保证应用的稳定运行,如果你直接安装，你会得到一个和官方版本有着几乎同样体验的的应用.
@@ -75,7 +85,7 @@ This version is build for Xposed users to use.
 
 **有没有打算支持到Android 5.0 - Android 7.1 ？**
 
-实现应该是没问题，但是......
+实现应该是没问题，但是......暂时没这打算。
 
 
 # 下载地址（Download）
@@ -89,3 +99,6 @@ release:<a href="https://github.com/eswd04/freeform_update/releases"> 跳转下�
 
 QQ ： 1712865977 （别骚扰我哦 ^_^ ）
 **
+
+
+
