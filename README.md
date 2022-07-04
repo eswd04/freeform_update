@@ -22,8 +22,7 @@ ver13 support Android 10 stably！
 
 You can donate to me that I can make a better app for you
 
-<img src="https://github.com/eswd04/freeform_update/blob/main/eswd_alipay.jpg?raw=true" alt="支付宝" style="max-width: 30%; zoom: 33%;" width="200px"/>
-<img src="https://github.com/eswd04/freeform_update/blob/main/eswd_mm.png?raw=true" alt="微信" style="max-width: 30%; zoom: 33%;" width="200px"/>
+<img src="https://github.com/eswd04/freeform_update/blob/main/eswd_alipay.jpg?raw=true" alt="支付宝" style="max-width: 30%; zoom: 33%;" width="200px"/><img src="https://github.com/eswd04/freeform_update/blob/main/eswd_mm.png?raw=true" alt="微信" style="max-width: 30%; zoom: 33%;" width="200px"/>
 
 
 <a href="https://qr.alipay.com/fkx16389aa8c5ayxrqbetbd">手机跳转支付宝</a>
