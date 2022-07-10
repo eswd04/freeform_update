@@ -50,7 +50,7 @@ This version is build for Xposed users to use.
 
 
 # 截图/Screenshot
-<img src="https://github.com/eswd04/freeform_update/blob/main/Screenshot_20220619_151608.png?raw=true" alt="android 8.1" style="max-width: 30%; />
+<img src="https://github.com/eswd04/freeform_update/blob/main/Screenshot_20220619_151608.png?raw=true" alt="android 8.1"  />
 
 
 
