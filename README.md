@@ -48,6 +48,12 @@ or you get the same experience as the official version.
 So my suggestion is , if you don't have Xposed ( or Lsposed etc ),you best to use officail package.
 This version is build for Xposed users to use. 
 
+
+# 截图/Screenshot
+<img src="https://github.com/eswd04/freeform_update/blob/main/Screenshot_20220619_151608.png?raw=true" alt="android 8.1" style="max-width: 30%; zoom: 33%;" width="200px"/>
+
+
+
 # Q&A
 
 **稳定运行是什么意思?**
