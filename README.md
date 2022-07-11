@@ -18,12 +18,19 @@ ver13 support Android 10 stably！
 
 # 捐赠 (Donate ：Only support wechat and alipay)
 
-为了能让我做出更好用的产品让你们使用，你可以向我捐赠。向我捐赠的就是我的金主爸爸！
+为了能让我做出更好用的产品让你们使用，你可以向我捐赠。向我捐赠的就是我的金主爸爸！捐赠多少都是对我的一点鼓励
 
-You can donate to me that I can make a better app for you
+（支持Android 8+版本的暂未放出。如果你需要，可以考虑找我进行py交易。）
+
+
+
+
+If you are would like to support my work,You can donate to me that I can make a better app for you。
+
+(If you want a version to support android 8+ for test,you can find me in telegrem group ,and find user： @eswd)
+
 
 <img src="https://github.com/eswd04/freeform_update/blob/main/eswd_alipay.jpg?raw=true" alt="支付宝" style="max-width: 30%; zoom: 33%;" width="200px"/><img src="https://github.com/eswd04/freeform_update/blob/main/eswd_mm.png?raw=true" alt="微信" style="max-width: 30%; zoom: 33%;" width="200px"/>
-
 
 <a href="https://qr.alipay.com/fkx16389aa8c5ayxrqbetbd">手机跳转支付宝</a>
 
