@@ -1,19 +1,19 @@
-**
+## 现已构建出能够在Android 8 以及 Android 10 上稳定运行的版本
 
-## 现已构建出能够在Android 8 以及 Android 10 上稳定运行的版本(已上传在Android10上的稳定版本 Ver13)
+(现在已上传能够在Android10上的稳定运行的版本：Ver13+)
 
-（Android 9未测试）。若要稳定运行，需要配合Xposed框架使用。用不了Xposed框架的用户建议不要安装使用该项目内的任何版本
+（支持Android8+的版本未在Android 9上进行测试）
+
+若要稳定运行，需要配合Xposed框架使用.**用不了Xposed框架的用户建议不要安装使用该项目内的任何版本**,因为官方有更为好用的版本！！！
 
 > 支持Android 8的版本暂未上传，仅上传了支持Android 10 的版本。~~支持Android 10 的版本近期上传，如需加速上传，请进telegrem群组内开启加速包来加速上传~~
 
-Now Avaliable a version can run stably on Android 8 ,and needs to use the Xposed Framework.
-
-Users who can't use the Xposed Framework are adviced not to use this version
-
+Now Avaliable a version can run stably on Android 8 ,But not upload.
 > The version that supports Android 8 has not been uploaded yet.
 
+**Users who can't use the Xposed Framework are adviced not to use this version**
 
-ver13 support Android 10 stably！
+ver13+ support Android 10 stably！
 
 
 # 捐赠 (Donate ：Only support wechat and alipay)
@@ -86,7 +86,7 @@ This version is build for Xposed users to use.
 
 **能把应用完善并做得更好吗？**
 
-。。。这个我不发表意见
+充钱吧！
 
 **支持Android 8 （9）的版本呢？**
 
@@ -101,6 +101,9 @@ This version is build for Xposed users to use.
 
 实现应该是没问题，但是......暂时没这打算。
 
+**开放源代码？**
+
+暂时没空搞，等我有空再说
 
 # 下载地址（Download）
 
