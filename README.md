@@ -4,7 +4,9 @@
 
 （支持Android8+的版本未在Android 9上进行测试）
 
-若要稳定运行，需要配合Xposed框架使用.**用不了Xposed框架的用户建议不要安装使用该项目内的任何版本**,因为官方有更为好用的版本！！！
+若要稳定运行，需要配合Xposed框架使用.**（为什么需要激活Xposed？请滚动到下方查看 #Q&A ）**
+
+**用不了Xposed框架的用户建议不要安装使用该项目内的任何版本**,因为官方有更为好用的版本！！！
 
 > 支持Android 8的版本暂未上传，仅上传了支持Android 10 的版本。~~支持Android 10 的版本近期上传，如需加速上传，请进telegrem群组内开启加速包来加速上传~~
 
@@ -63,6 +65,12 @@ This version is build for Xposed users to use.
 
 # Q&A
 
+**为什么需要Xposed框架？不用可以吗？**
+
+应用可以不用Xposed激活，使用Xposed激活米窗只是为了保证能够在一部分的系统版本上能够正常运行小窗。比如在Android 10 或者Android 12L上，一部分应用会在界面切换时，应用会切换回全屏运行，而不是以小窗的方式运行。这种情况就需要激活Xposed辅助。在Xposed中激活米窗并重启后，应该就不会出现应用以小窗运行时依旧会跳转回全屏运行。
+
+因此，Xposed作为辅助，可以用也可以不用。用了Xposed可以在某些系统上更好运行。当然没有Xposed不建议使用只是因为你们使用旧版本米窗，如1.0.6版本或许会更好一点。
+
 **稳定运行是什么意思?**
 
 稳定运行意味着你打开QQ或者WhatApp这类应用时，应用能稳定的在小窗中打开
@@ -70,9 +78,8 @@ This version is build for Xposed users to use.
 
 **这个项目的应用有什么特殊的问题（bug）存在吗**
 
-1. 旋转屏幕（自行体会）
-2. 大小缩放，仅支持同比例缩放，不支持改宽高
-3. 其他bug应该和官方发行的版本bug一致
+1. 旋转屏幕可能有点问题（自行体会）
+2. 其他bug应该和官方发行的版本bug一致
 
 以上bug看心情修，或者等官方版本吧
 
@@ -80,7 +87,7 @@ This version is build for Xposed users to use.
 
 **这个项目有什么特别的吗？**
 
-1. 现已支持在Android 10 - Android 12上稳定运行
+1. 现已支持在Android 10 - Android 12 上稳定运行
 2. 支持应用在退出后自动关闭小窗
 3. 其他自行体会
 
@@ -93,9 +100,9 @@ This version is build for Xposed users to use.
 想使用？充钱吧骚年！（建议等官方版本，等等党最后的胜利！）
 该版本暂未上传，反正官方也在内测，不如直接找官方开发者进入内测？
 
-**支持Android 9 的版本呢？**
+至于支持Android 9 的版本，没有设备不好测试，应该也可以稳定运行。
 
-没有设备不好测试，应该也可以稳定运行
+如果你真的非常想用，尝试找我py...或许成功py的话会发个测试版本给你。
 
 **有没有打算支持到Android 5.0 - Android 7.1 ？**
 
@@ -108,9 +115,9 @@ This version is build for Xposed users to use.
 # 下载地址（Download）
 
 用于更新米窗修改版本的仓库：请转到Release页面下载
-release:<a href="https://github.com/eswd04/freeform_update/releases"> 跳转下载（download）</a>
+Github Release:<a href="https://github.com/eswd04/freeform_update/releases"> 跳转下载（download）</a>
 
-国内用户请访问：<a href="https://eswd.lanzouj.com/b0rijuti">国内下载</a>
+国内用户请访问（蓝奏云）：<a href="https://eswd.lanzouj.com/b0rijuti">国内下载</a>
 
 # Other
 
