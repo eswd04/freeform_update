@@ -4,7 +4,24 @@
 
 （支持Android8+的版本未在Android 9上进行测试）
 
-若要稳定运行，需要配合Xposed框架使用.**（为什么需要激活Xposed？请滚动到下方查看 #Q&A ）**
+**该版本基于米窗官方版本二改**，如需了解，请访问：
+
+官方版本链接：>> [米窗官版GitHub](https://github.com/sunshine0523/Mi-FreeForm) <<
+
+<br>
+
+**安装步骤请往下划**
+
+**安装步骤请往下划**
+
+**安装步骤请往底部划**
+
+建议先没看过说明的先看翻阅说明
+
+<br>
+
+
+若要稳定运行，需要配合Xposed框架使用.（具体看安装过程安装步骤）**（为什么需要激活Xposed？请滚动到下方查看 #Q&A ）**
 
 **用不了Xposed框架的用户建议不要安装使用该项目内的任何版本**,因为官方有更为好用的版本！！！
 
@@ -16,6 +33,7 @@ Now Avaliable a version can run stably on Android 8 ,But not upload.
 **Users who can't use the Xposed Framework are adviced not to use this version**
 
 ver13+ support Android 10 stably！
+
 
 
 # 捐赠 (Donate ：Only support wechat and alipay)
@@ -35,6 +53,25 @@ If you are would like to support my work,You can donate to me that I can make a 
 <img src="https://github.com/eswd04/freeform_update/blob/main/eswd_alipay.jpg?raw=true" alt="支付宝" style="max-width: 30%; zoom: 33%;" width="200px"/><img src="https://github.com/eswd04/freeform_update/blob/main/eswd_mm.png?raw=true" alt="微信" style="max-width: 30%; zoom: 33%;" width="200px"/>
 
 <a href="https://qr.alipay.com/fkx16389aa8c5ayxrqbetbd">手机跳转支付宝</a>
+
+
+# 安装步骤
+
+安装好应用的后续步骤：
+
+1. 装Sui 或Shizuku
+2. 装Lsposed 或其他Xposed框架
+3. 进Lsposed激活米窗（勾选 系统框架[Framework] 和 系统界面[SystemUI]）
+4. 激活后重启设备
+
+#Installation Guide
+
+After install apk：
+1. Install Sui or Shizuku
+2. Install Lsposed or other Xposed Framework
+3. Goto Lsposed and active Mi Freeform
+4. reboot device
+
 
 # 说明（Note）
 
@@ -66,6 +103,8 @@ This version is build for Xposed users to use.
 # Q&A
 
 **为什么需要Xposed框架？不用可以吗？**
+
+> 注意，安装Xposed并不意味着你就不需要使用Sui 或者Shizuku了
 
 应用可以不用Xposed激活，使用Xposed激活米窗只是为了保证能够在一部分的系统版本上能够正常运行小窗。比如在Android 10 或者Android 12L上，一部分应用会在界面切换时，应用会切换回全屏运行，而不是以小窗的方式运行。这种情况就需要激活Xposed辅助。在Xposed中激活米窗并重启后，应该就不会出现应用以小窗运行时依旧会跳转回全屏运行。
 
