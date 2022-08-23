@@ -1,0 +1,216 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fillViewport="true"
+    tools:context=".activity.main.MainActivity">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <com.google.android.material.card.MaterialCardView
+            android:id="@+id/materialCardView_info"
+            style="@style/FreeForm.CardViewStyle"
+            android:layout_width="0dp"
+            android:layout_height="@dimen/info_card_height"
+            android:layout_marginStart="@dimen/card_view_margin"
+            android:layout_marginTop="@dimen/card_view_margin"
+            android:layout_marginEnd="@dimen/card_view_margin"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent">
+
+            <androidx.constraintlayout.widget.ConstraintLayout
+                android:id="@+id/info_bg"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@color/red">
+
+                <ImageView
+                    android:id="@+id/imageView_service"
+                    android:layout_width="@dimen/info_image_size"
+                    android:layout_height="@dimen/info_image_size"
+                    android:layout_marginStart="@dimen/info_image_margin"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent"
+                    app:srcCompat="@drawable/ic_error_white" />
+
+                <TextView
+                    android:id="@+id/textView_service_info"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="@dimen/info_text_margin_left_right"
+                    android:layout_marginTop="@dimen/info_text_margin_up_down"
+                    android:text="@string/no_start"
+                    android:textColor="@color/white"
+                    android:textSize="@dimen/info_text_size"
+                    android:textStyle="bold"
+                    app:layout_constraintStart_toEndOf="@+id/imageView_service"
+                    app:layout_constraintTop_toTopOf="parent" />
+
+                <TextView
+                    android:id="@+id/textView_service_description"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="@dimen/info_text_margin_left_right"
+                    android:layout_marginBottom="@dimen/info_text_margin_up_down"
+                    android:text="@string/service_not_start_description"
+                    android:textColor="@color/white"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintStart_toEndOf="@+id/imageView_service" />
+            </androidx.constraintlayout.widget.ConstraintLayout>
+        </com.google.android.material.card.MaterialCardView>
+
+        <com.google.android.material.card.MaterialCardView
+            android:id="@+id/materialCardView_app"
+            style="@style/FreeForm.CardViewStyle"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/materialCardView_info"
+            android:layout_marginStart="@dimen/card_view_margin"
+            android:layout_marginTop="@dimen/card_view_margin"
+            android:layout_marginEnd="@dimen/card_view_margin">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <com.google.android.material.button.MaterialButton
+                    android:id="@+id/button_freeform_setting"
+                    style="@style/FreeForm.ButtonStyle"
+                    android:layout_width="match_parent"
+                    android:layout_height="@dimen/button_height"
+                    android:text="@string/mi_freeform_setting_label"
+                    app:icon="@drawable/tile_icon"
+                    app:iconSize="@dimen/icon_size"
+                    app:iconPadding="@dimen/icon_padding"
+                    android:padding="@dimen/card_view_child_padding"/>
+            </LinearLayout>
+
+        </com.google.android.material.card.MaterialCardView>
+
+        <com.google.android.material.card.MaterialCardView
+            android:id="@+id/materialCardView_about"
+            style="@style/FreeForm.CardViewStyle"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/materialCardView_app"
+            android:layout_marginStart="@dimen/card_view_margin"
+            android:layout_marginTop="@dimen/card_view_margin"
+            android:layout_marginEnd="@dimen/card_view_margin">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <com.google.android.material.button.MaterialButton
+                    android:id="@+id/button_tell_me"
+                    style="@style/FreeForm.ButtonStyle"
+                    android:layout_width="match_parent"
+                    android:layout_height="@dimen/button_height"
+                    android:padding="@dimen/card_view_child_padding"
+                    android:text="@string/feedback"
+                    app:icon="@drawable/ic_question"
+                    app:iconPadding="@dimen/icon_padding"
+                    app:iconSize="@dimen/icon_size" />
+
+                <com.google.android.material.button.MaterialButton
+                    android:id="@+id/button_donate"
+                    style="@style/FreeForm.ButtonStyle"
+                    android:layout_width="match_parent"
+                    android:layout_height="@dimen/button_height"
+                    android:padding="@dimen/card_view_child_padding"
+                    android:text="@string/donate"
+                    app:icon="@drawable/ic_money"
+                    app:iconPadding="@dimen/icon_padding"
+                    app:iconSize="@dimen/icon_size" />
+
+                <com.google.android.material.button.MaterialButton
+                    android:id="@+id/button_star"
+                    style="@style/FreeForm.ButtonStyle"
+                    android:layout_width="match_parent"
+                    android:layout_height="@dimen/button_height"
+                    android:padding="@dimen/card_view_child_padding"
+                    android:text="@string/rate"
+                    app:icon="@drawable/ic_star"
+                    app:iconPadding="@dimen/icon_padding"
+                    app:iconSize="@dimen/icon_size" />
+
+                <com.google.android.material.button.MaterialButton
+                    android:id="@+id/button_coolapk"
+                    style="@style/FreeForm.ButtonStyle"
+                    android:layout_width="match_parent"
+                    android:layout_height="@dimen/button_height"
+                    android:padding="@dimen/card_view_child_padding"
+                    android:text="@string/coolapk_my_name"
+                    app:icon="@drawable/ic_coolapk"
+                    app:iconPadding="@dimen/icon_padding"
+                    app:iconSize="@dimen/icon_size" />
+
+                <com.google.android.material.button.MaterialButton
+                    android:id="@+id/button_qq_group"
+                    style="@style/FreeForm.ButtonStyle"
+                    android:layout_width="match_parent"
+                    android:layout_height="@dimen/button_height"
+                    android:padding="@dimen/card_view_child_padding"
+                    android:text="@string/add_qq_group"
+                    app:icon="@drawable/ic_qq"
+                    app:iconPadding="@dimen/icon_padding"
+                    app:iconSize="@dimen/icon_size" />
+
+                <com.google.android.material.button.MaterialButton
+                    android:id="@+id/button_qq_channel"
+                    style="@style/FreeForm.ButtonStyle"
+                    android:layout_width="match_parent"
+                    android:layout_height="@dimen/button_height"
+                    android:padding="@dimen/card_view_child_padding"
+                    android:text="@string/add_qq_channel"
+                    app:icon="@drawable/ic_qq"
+                    app:iconPadding="@dimen/icon_padding"
+                    app:iconSize="@dimen/icon_size" />
+
+                <com.google.android.material.button.MaterialButton
+                    android:id="@+id/button_telegram"
+                    style="@style/FreeForm.ButtonStyle"
+                    android:layout_width="match_parent"
+                    android:layout_height="@dimen/button_height"
+                    android:padding="@dimen/card_view_child_padding"
+                    android:text="@string/add_telegram"
+                    app:icon="@drawable/ic_telegram"
+                    app:iconPadding="@dimen/icon_padding"
+                    app:iconSize="@dimen/icon_size" />
+
+                <com.google.android.material.button.MaterialButton
+                    android:id="@+id/button_open_source"
+                    style="@style/FreeForm.ButtonStyle"
+                    android:layout_width="match_parent"
+                    android:layout_height="@dimen/button_height"
+                    android:padding="@dimen/card_view_child_padding"
+                    android:text="@string/open_source"
+                    app:icon="@drawable/ic_github"
+                    app:iconPadding="@dimen/icon_padding"
+                    app:iconSize="@dimen/icon_size" />
+                <com.google.android.material.button.MaterialButton
+                    android:id="@+id/button_open_modify_user"
+                    style="@style/FreeForm.ButtonStyle"
+                    android:layout_width="match_parent"
+                    android:layout_height="@dimen/button_height"
+                    android:padding="@dimen/card_view_child_padding"
+                    android:text="@string/modify_user_version"
+                    app:icon="@drawable/ic_github"
+                    app:iconPadding="@dimen/icon_padding"
+                    app:iconSize="@dimen/icon_size" />
+            </LinearLayout>
+        </com.google.android.material.card.MaterialCardView>
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</ScrollView>

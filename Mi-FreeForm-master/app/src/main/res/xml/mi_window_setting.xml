@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <PreferenceCategory
+        android:title="@string/category_freeform_base"
+        app:iconSpaceReserved="true">
+
+        <SwitchPreference
+            app:iconSpaceReserved="true"
+            android:defaultValue="false"
+            android:key="switch_hide_recent"
+            android:title="@string/switch_hide_recent"
+            android:summary="@string/switch_hide_recent_summary"/>
+        <Preference
+            app:iconSpaceReserved="true"
+            android:key="setting_freeform_apps"
+            android:summary="@string/setting_freeform_apps_summary"
+            android:title="@string/setting_freeform_apps" />
+        <Preference
+            app:iconSpaceReserved="true"
+            android:key="setting_freeform_dpi"
+            android:summary="@string/setting_freeform_dpi_summary"
+            android:title="@string/setting_freeform_dpi_title"/>
+        <Preference
+            app:iconSpaceReserved="true"
+            android:summary="@string/how_to_use_summary"
+            android:title="@string/how_to_use_title"/>
+    </PreferenceCategory>
+
+    <PreferenceCategory
+        android:title="@string/keep_running"
+        app:iconSpaceReserved="true">
+
+        <Preference
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:summary="@string/keep_running_summary"
+            app:iconSpaceReserved="true" />
+        <Preference
+            app:iconSpaceReserved="true"
+            app:icon="@drawable/ic_battery"
+            android:key="battery"
+            android:title="@string/battery"
+            android:summary="@string/battery_summary"/>
+        <SwitchPreference
+            app:iconSpaceReserved="true"
+            android:defaultValue="false"
+            android:key="show_foreground"
+            android:title="@string/foreground_service"
+            android:summary="@string/foreground_service_subtitle"/>
+    </PreferenceCategory>
+    <PreferenceCategory
+        android:title="@string/category_floating"
+        app:iconSpaceReserved="true">
+        <SwitchPreference
+            app:iconSpaceReserved="true"
+            android:defaultValue="false"
+            android:key="show_floating"
+            android:title="@string/switch_freeform" />
+        <Preference
+            app:iconSpaceReserved="true"
+            android:key="setting_floating"
+            android:summary="@string/setting_floating_summary"
+            android:title="@string/setting_floating" />
+<!--        <SwitchPreference-->
+<!--            app:iconSpaceReserved="true"-->
+<!--            android:defaultValue="false"-->
+<!--            android:key="switch_preference_floating_only_enable_landscape"-->
+<!--            android:title="@string/switch_preference_only_enable_landscape" />-->
+    </PreferenceCategory>
+    <PreferenceCategory
+        app:iconSpaceReserved="true"
+        android:title="@string/category_notify">
+
+        <SwitchPreference
+            app:iconSpaceReserved="true"
+            android:defaultValue="false"
+            android:key="switch_notify"
+            android:summary="@string/switch_notify_summary"
+            android:title="@string/switch_notify" />
+        <Preference
+            app:iconSpaceReserved="true"
+            android:key="setting_notification_apps"
+            android:summary="@string/setting_notification_apps_summary"
+            android:title="@string/setting_notification_apps"/>
+        <SwitchPreference
+            app:iconSpaceReserved="true"
+            android:defaultValue="false"
+            android:key="switch_preference_only_enable_landscape"
+            android:title="@string/switch_preference_only_enable_landscape" />
+    </PreferenceCategory>
+
+
+    <PreferenceCategory
+        app:iconSpaceReserved="true"
+        android:title="@string/launch_type_pref">
+
+        <SwitchPreference
+            app:iconSpaceReserved="true"
+            android:defaultValue="true"
+            android:key="remember_size"
+            android:title="@string/remember_size" />
+
+        <ListPreference
+            app:iconSpaceReserved="true"
+            android:defaultValue="0"
+            android:entries="@array/launch_type_text"
+            android:entryValues="@array/launch_type"
+            android:key="launch_type"
+            android:summary="@string/launcher_type_summary"
+            android:title="@string/launch_type" />
+        <SwitchPreference
+            app:iconSpaceReserved="true"
+            android:defaultValue="false"
+            android:key="disable_lan"
+            android:summary="@string/disable_landscape_summary"
+            android:title="@string/disable_landscape" />
+
+        <SwitchPreference
+            app:iconSpaceReserved="true"
+            android:defaultValue="true"
+            android:key="listen_close"
+            android:summary="@string/listen_close_summary"
+            android:title="@string/listen_close" />
+
+    </PreferenceCategory>
+</PreferenceScreen>

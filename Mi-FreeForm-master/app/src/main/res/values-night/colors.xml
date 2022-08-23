@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="transparent">#00000000</color>
+    <color name="text">#FFFFFF</color>
+    <color name="freeform_size_cardview_background">?colorPrimary</color>
+    <color name="freeform_bar">?colorSurface</color>
+
+    <color name="color_surface">@color/google_grey_900</color>
+    <color name="color_surface_transparent">#000000</color>
+
+    <color name="color_text">@color/white</color>
+</resources>

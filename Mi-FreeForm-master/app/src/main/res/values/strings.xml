@@ -1,0 +1,149 @@
+<resources>
+    <!--AndroidManifest-->
+    <string name="app_name">Mi-FreeForm</string>
+    <string name="xposed_description"><![CDATA[Mi-FreeForm needed apps has checked in LSPposed. If you need fix "he app does not support displaying on the secondary screen" bug, need to checked has this question apps and restart these apps. On Android R devices, checked System UI can fix some bugs.]]></string>
+    <string name="sort_apps_label">Sort Apps</string>
+    <string name="donation_label">Donation</string>
+    <string name="floating_label">Floating Settings</string>
+    <string name="choose_freeform_apps_label">Choose FreeForm Apps</string>
+    <string name="floating_view_label">Choose This Activity to Start Choose Activity</string>
+    <string name="mi_freeform_setting_label">Apps Settings</string>
+    <string name="choose_freeform_app">Choose FreeForm Apps</string>
+
+    <!--activity_donation.xml-->
+    <string name="senior_info">Thanks. But for the time being, Mi-FreeForm does not support donations from outside mainland China.</string>
+    <string name="alipay">Alipay</string>
+    <string name="pay_list">Donate List</string>
+    <string name="so_sad">No! I don`t want to donate</string>
+    <string name="wechat">Wechat</string>
+
+    <!--activity_main.xml-->
+    <string name="no_start">Mi-FreeForm Service isn`t Running</string>
+    <string name="service_not_start_description">Mi-FreeForm Service isn`t Running</string>
+    <string name="feedback">FeedBack</string>
+    <string name="donate">Donate</string>
+    <string name="rate">Rate Me</string>
+    <string name="coolapk_my_name">Coolapk follow @KindBrave</string>
+    <string name="add_qq_group">Join QQ Group</string>
+    <string name="add_qq_channel">Add QQ Channel</string>
+    <string name="add_telegram">Telegram @Mi-FreeForm</string>
+    <string name="open_source">Open Source Code</string>
+
+    <!--activity_splash_setup.xml-->
+    <string name="read_statement_done">I have read and agree to the Rights Statement and The Services and Disclaimer shown above.</string>
+
+    <!--view_editview.xml-->
+    <string name="input_freeform_dpi">Please input freeform`s DPI</string>
+
+    <!--view_notification.xml-->
+    <string name="start_with_freeform">Mi-FreeForm</string>
+
+    <!--menu_choose_apps.xml-->
+    <string name="search">Search</string>
+    <string name="choose_all">Select All</string>
+    <string name="choose_all_cancel">Cancel Select All</string>
+
+    <!--floating_setting.xml-->
+    <string name="switch_show_location_off">The floating button is currently displayed on the left side of the screen</string>
+    <string name="switch_show_location_on">The floating button is currently displayed on the right side of the screen</string>
+    <string name="switch_show_location">Click the switch button to display the position</string>
+
+    <!--mi_window_setting.xml-->
+    <string name="category_freeform_base">Base Settings</string>
+    <string name="switch_hide_recent">Hide in Recent</string>
+    <string name="switch_hide_recent_summary">In the Mi-FreeForm, cross out this app from the multi task and then re-enter to take effect</string>
+    <string name="setting_freeform_apps">Choose Use FreeForm Apps</string>
+    <string name="setting_freeform_apps_summary">Select the application that can open with Mi-FreeForm</string>
+    <string name="setting_freeform_dpi_title">FreeForm DPI</string>
+    <string name="setting_freeform_dpi_summary">Adjust the size of the interface in the freeform, because QQ itself does not support change</string>
+    <string name="how_to_use_summary">Control bar usage: slide left and right in portrait state, slide up and down in landscape state; Close portrait state up slide, landscape state left slide; Maximize vertical slide; Swipe right in landscape mode; Zoom small window oblique slide; Hang up the small window double click; Move Position Hold down and drag</string>
+    <string name="how_to_use_title">How to use the Mi-FreeForm control bar?</string>
+    <string name="keep_running">Keep Running Settings</string>
+    <string name="keep_running_summary">Mi-FreeForm can\'t guarantee the success of always keeping alive, but it will still try its best to ensure that it can still provide normal service in the background. You can turn on the following keep alive options according to the background survival of Mi-FreeForm</string>
+    <string name="battery">Battery Saving</string>
+    <string name="battery_summary">In order to ensure the normal operation of the Mi-FreeForm in the background, you can turn off the battery optimization of the meter window, but the Mi-FreeForm may consume more power of the device</string>
+    <string name="foreground_service">Foreground Service</string>
+    <string name="foreground_service_subtitle">After this option is turned on, Mi-FreeForm will create a persistent notification in the notification interface to ensure normal operation. Click the notification to open the small window selection interface, and you can set the notification to mute.</string>
+    <string name="category_floating">Floating Button</string>
+    <string name="switch_freeform">Floating Button</string>
+    <string name="setting_floating">Floating Button Settings</string>
+    <string name="setting_floating_summary">Set the position of the floating button</string>
+    <string name="category_notify">Notification</string>
+    <string name="switch_notify">Notification</string>
+    <string name="switch_notify_summary">When the selected application sends a notice, Mi-FreeForm will intercept and send a notice with the same content. Clicking the notice will use freeform to open the notice. I promise that Mi-FreeForm will never save or send any information in the notice. </string>
+    <string name="setting_notification_apps_summary">Choose notification by Mi-FreeForm apps</string>
+    <string name="setting_notification_apps">Choose notification apps</string>
+    <string name="switch_preference_only_enable_landscape">Only Enable Landscape</string>
+
+    <!--DonationActivity.kt-->
+    <string name="donate_label">Donate</string>
+    <string name="open_alipay_fail">Open Alipay Failed</string>
+
+    <!--MainActivity.kt-->
+    <string name="xposed_start">Xposed Service is Running</string>
+    <string name="xposed_service_description">Enjoy it!</string>
+    <string name="sui_start">Sui&amp;Shizuku Model is Running</string>
+    <string name="sui_service_description">Enjoy it!</string>
+    <string name="no_service_description">None of Xposed and Sui/Shizuku Service are Running</string>
+    <string name="start_market_fail">Open the market fail</string>
+    <string name="start_coolapk_fail">Open Coolapk fail</string>
+    <string name="start_qq_fail">Open QQ fail</string>
+
+    <!--MiWindowSettingView.kt-->
+    <string name="done">Done</string>
+    <string name="require_notification_permission">Please enable the right to use notification</string>
+    <string name="require_notification_permission_fail">Unable to jump to the setting interface, please manually go to set the Notification permission of opening rice window</string>
+
+    <!--SplashActivity.kt-->
+    <string name="welcome_label">Welcome to Use Mi-FreeForm</string>
+    <string name="textview_setup_help"><Data>
+            <![CDATA[在1.0.2 beta开始，米窗开始使用<b>Shizuku或Sui启动核心功能</b>。如果您的设备没有magisk或没有root，那么请您<b>在酷安下载Shizuku进行授权，如果您有，可以通过刷入Riru-Sui模块进行授权</b>。如果您不了解Shizuku和Sui，您可以去酷安搜索相关信息。同时为了米窗的一些附加功能正常使用，<b>建议您在xposed管理器中勾选米窗并重启设备</b>。<b>如果您不了解米窗的操作或对米窗的操作有疑问，请点击下方操作指南来查阅</b>。]]>
+        </Data>
+    </string>
+    <string name="setup_info">似乎我们是初次见面，那就让我来引导您了解米窗，同时做一些必要设置。米窗是一款在类原生系统上可以像MIUI小窗一样工作的软件。它使用并不复杂，但是需要您授权ROOT、启用Xposed模块等权限，如果您没有听说过或不了解这些，请不要使用米窗；您也可以点击此处了解米窗为什么需要这些权限。为了更好的为您提供服务，请您阅读并同意《服务及免责声明》。如果您不接受上述声明，请不要使用米窗。</string>
+    <string name="permission_info">为了保证米窗正常使用，需要使用以下权限，米窗承诺，不会滥用权限获取您的任何信息\n\nXposed权限：米窗需要使用Xposed权限来进行控制小窗中的应用，包括：触摸、返回；可以让悬浮窗在任意界面上进行叠加；此外，在Android 11上，需要Xposed权限来防止小窗运行中发生的闪退问题，在Android 10上，可以防止启动小窗失败等问题\n\nROOT权限：米窗需要使用ROOT权限来进行启动小窗中的应用；并且可以自动启动下述权限\n\n使用情况访问权限：米窗需要使用“使用情况访问权限”来获取设备中最近使用的应用情况，用于展示最近应用以启动小窗\n\n通知使用权：米窗需要使用“通知使用权”来获取设备的通知信息，用于接管系统通知进行小窗打开。\n\n\n此外，米窗还申请了下述权限来保证米窗的正常运行：\n\n互联网访问权限：米窗的ROOT模式（暂未对用户开放，内测）控制需要本地互联网连接，但需要申请该权限\n\n振动器权限：米窗在多个界面需要进行振动以反馈给您\n\n获取设备中应用信息：在Android 11上，米窗需要申请该权限才能获取设备上全部应用信息，申请该权限为了向您展示设备应用来进行是否进行小窗打开\n\n电池优化：为了保证米窗可以在后台保证运行，您可以选择关闭对米窗的电池优化\n\n关闭通知栏：为了在点击小窗通知后和点击磁贴后可以自动关闭通知栏，申请了该权限\n\n\n为了获取米窗在运行时的崩溃日志，米窗接入了腾讯Bugly。Bugly向您申请了下述权限：\n\n互联网访问权限：Bugly上传崩溃日志时，需要该权限\n\n网络连接状态权限：Bugly上传崩溃日志时，需要该权限\n\n读取系统日志：Bugly获取米窗崩溃日志时，需要该权限\n\n\n以上是米窗申请的全部权限，如果您对该说明有异议，请联系开发者。如果您不同意该权限声明，米窗可能无法为您提供服务。</string>
+    <string name="service_info">米窗的获取、使用、更新等服务完全免费，但米窗不保证会因为一些不稳定因素而终止服务。使用米窗可能会让您的设备出现“死机”、“成砖”等严重影响日常使用的问题，米窗默认您拥有基本的解决上述问题的能力。同时建议您在使用米窗前对设备重要信息进行备份，并且不要将米窗安装在您的主要设备上。米窗不保证对您的设备出现问题提供技术支持。使用米窗即代表您同意上述声明</string>
+    <string name="permission_instruction">Permission Instruction</string>
+    <string name="service_instruction">Service Instruction</string>
+
+    <!--CoreService.kt-->
+    <string name="request_overlay_permission_fail">38/5000
+Unable to jump to the Settings interface, please manually go to set the "display in the upper layer of other application interface" permission of Mi-FreeForm</string>
+    <string name="request_overlay_permission">Please select Mi-FreeForm to enable "Display on top of other application interface" permission</string>
+    <string name="foreground_notification_name">Mi-FreeForm Foreground Service</string>
+    <string name="foreground_notification_title">Mi-FreeForm is Running</string>
+    <string name="foreground_notification_text">Check to Open Apps Checker</string>
+
+    <!--NotificationService.kt-->
+    <string name="freeform_channel_id">Mi-FreeForm Notification</string>
+    <string name="open_by_freeform">Mi-FreeForm</string>
+
+    <!--FloatingViewAdapter.kt-->
+    <string name="all_apps">All Apps</string>
+    <string name="edit_apps">Edit</string>
+
+    <!--FreeFormView.kt-->
+    <string name="already_show">The current application has been opened in Mi-FreeForm</string>
+    <string name="shizuku_not_running"><![CDATA[Shizuku&Sui NOT Running]]></string>
+    <string name="show_overlay_fail">Failed to open the freeform. Have you set the display mode to system mode but The Xposed does not check the small window? Or does the scope not select the system framework?</string>
+
+
+
+    <string name="modify_user_version">mod version update addr</string>
+    <string name="mod_user">(translate)and also donate the mod author(eswd),let me to make the software better</string>
+    <string name="alipay_eswd">mod author\'s alipay</string>
+    <string name="wechat_eswd">mod author\'s wechat</string>
+    <string name="launch_type_pref">other</string>
+    <string name="launch_type">Switch Activity Launch Type</string>
+    <string name="launcher_type_summary">Staty Activity using command mode by default,If </string>
+    <string name="launch_type_command">Command Line</string>
+    <string name="launch_type_function">System default method</string>
+    <string name="disable_landscape">disable landscape(Experimental)</string>
+
+    <string name="disable_landscape_summary">Always operate in portrait orientation(Very useful on large display devices)</string>
+    <string name="listen_close">Auto close(Experimental)</string>
+    <string name="listen_close_summary">Auto close window when the app enter fullscreen or app killed   by user.(Only test on my system (Android 12).Be careful to choose)</string>
+    <string name="remember_size_summary">remember size and position</string>
+    <string name="remember_size">remember size and position</string>
+
+</resources>
