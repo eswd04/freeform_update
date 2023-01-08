@@ -2,4 +2,6 @@
 <resources>
     <item name="texture_view" type="id"/>
     <item name="bar_layout" type="id"/>
+    <item name="top_bar_layout" type="id"/>
+
 </resources>

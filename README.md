@@ -1,34 +1,35 @@
-## 现已构建出能够在Android 8 以及 Android 10 上稳定运行的版本
+# 说明
 
-(现在已上传能够在Android10上的稳定运行的版本：Ver13+)
-
-（支持Android8+的版本未在Android 9上进行测试）、
-
-------》》》具体发布时间大致在九月或十月份左右，请如果需要的话可以期待下一个更新。
-
-
-
-
-
-**该版本基于米窗官方版本二改**，如需了解原版，请访问：
+**1.该版本基于米窗官方版本二改，如需了解原版，请访问：**
 
 官方版本链接：>> [米窗官版GitHub](https://github.com/sunshine0523/Mi-FreeForm) <<
 
+**2.源码已更新到最新（ver15）**
 
+需要代码参考的用户自行查阅，新官版小窗已经足够稳定了，建议移步官版使用，后续应该没有更新计划了。
 
+**3.MyFreeform 1.0**
 
+虽然界面和动画可能会好一点，但功能并不完善，后面估计也没什么时间更新了。
 
-### 源码发布说明：因为一部分原因，代码是重新修改了。最近也在忙着其他的事情，不太方便更新，现在只是上传了是包含这个项目的核心代码。拖了那么久，真是很抱歉。不过后面会把项目的代码逐步补全。而且官方版本近期也会恢复更新了。因此你们后面应该可以迁移回官方版本了。
+支持 android 8.0 - android 13
 
+**4.其他**
+
+目前在研究系统代码，希望能修改系统代码实现类似国内系统小窗的效果，主要是对类原生系统代码进行修改定制，目前的进度：
+
+一半一半，就是有思路了，可以使用，但还有bug。因为忙于工作，方向有所不同，没有太多时间给我研究，所以进度缓慢。
+
+**My bad English，I'm sorry about that, please translate yourself**
 
 
 <br>
 
-**安装步骤请往下划**
+**安装步骤请往下**
 
-**安装步骤请往下划**
+**安装步骤请往下**
 
-**安装步骤请往底部划**
+**安装步骤请查阅底部文档**
 
 建议先没看过说明的先看翻阅说明
 
@@ -41,28 +42,15 @@
 
 > 支持Android 8的版本暂未上传，仅上传了支持Android 10 的版本。~~支持Android 10 的版本近期上传，如需加速上传，请进telegrem群组内开启加速包来加速上传~~
 
-Now Avaliable a version can run stably on Android 8 ,But not upload.
-> The version that supports Android 8 has not been uploaded yet.
-
-**Users who can't use the Xposed Framework are adviced not to use this version**
-
-ver13+ support Android 10 stably！
+Now Avaliable a version can run stably on Android 8 
 
 
 
 # 捐赠 (Donate ：Only support wechat and alipay)
 
-为了能让我做出更好用的产品让你们使用，你可以向我捐赠。向我捐赠的就是我的金主爸爸！捐赠多少都是对我的一点鼓励
+感谢您的支持。
 
-（支持Android 8+版本的暂未放出。如果你需要，可以考虑找我进行py交易。）
-
-
-
-
-If you are would like to support my work,You can donate to me that I can make a better app for you。
-
-(If you want a version to support android 8+ for test,you can find me in telegrem group ,and find user： @eswd)
-
+(you can find me in telegrem group ,and find user： @eswd04)
 
 <img src="https://github.com/eswd04/freeform_update/blob/main/eswd_alipay.jpg?raw=true" alt="支付宝" style="max-width: 30%; zoom: 33%;" width="200px"/><img src="https://github.com/eswd04/freeform_update/blob/main/eswd_mm.png?raw=true" alt="微信" style="max-width: 30%; zoom: 33%;" width="200px"/>
 
@@ -95,7 +83,7 @@ After install apk：
 
 该版本基于官方2.0.5 的开放源代码进行构建，除了修复了所有应用不显示的或者启动不为目标应用的bug。还添加了一部分的特性功能。
 
-如果你有什么问题可以提issue,但我也不一定会去看。想要内容更新或者应用的功能后续维护请找该应用的原开发者。本人并不打算继续更新下去,(没有动力,你懂的,所以我能做的就是能用就行了，不然我也会继续完善下去)，该版本仅为个人在兴趣之余，为提供在 Android 12上（Android 11也行）的稳定使用而进行构建。 
+
 
 官方版本链接：[GitHub](https://github.com/sunshine0523/Mi-FreeForm)
 
@@ -111,8 +99,6 @@ This version is build for Xposed users to use.
 
 # 截图/Screenshot
 <img src="https://github.com/eswd04/freeform_update/blob/main/Screenshot_20220619_151608.png?raw=true" alt="android 8.1"  />
-
-
 
 # Q&A
 
@@ -136,11 +122,9 @@ This version is build for Xposed users to use.
 
 以上bug看心情修，或者等官方版本吧
 
-
-
 **这个项目有什么特别的吗？**
 
-1. 现已支持在Android 10 - Android 12 上稳定运行
+1. 现已支持在Android 8 - Android 12 上稳定运行
 2. 支持应用在退出后自动关闭小窗
 3. 其他自行体会
 
@@ -148,22 +132,15 @@ This version is build for Xposed users to use.
 
 充钱吧！
 
-**支持Android 8 （9）的版本呢？**
-
-想使用？充钱吧骚年！（建议等官方版本，等等党最后的胜利！）
-该版本暂未上传，反正官方也在内测，不如直接找官方开发者进入内测？
-
-至于支持Android 9 的版本，没有设备不好测试，应该也可以稳定运行。
-
-如果你真的非常想用，尝试找我py...或许成功py的话会发个测试版本给你。
-
 **有没有打算支持到Android 5.0 - Android 7.1 ？**
 
 实现应该是没问题，但是......暂时没这打算。
 
 **开放源代码？**
 
-暂时没空搞，等我有空再说
+请自行查阅本项目
+
+
 
 # 下载地址（Download）
 
@@ -175,4 +152,7 @@ Github Release:<a href="https://github.com/eswd04/freeform_update/releases"> 跳
 # Other
 
 QQ ： 1712865977 （别骚扰我哦 ^_^ ）
+
+Telegram：@eswd04
+
 **

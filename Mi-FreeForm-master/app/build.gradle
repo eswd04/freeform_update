@@ -18,7 +18,7 @@ android {
         minSdkVersion 29
         targetSdkVersion 31
         versionCode 39
-        versionName "2.0.5 beta"
+        versionName "2.0.5 eswd ver15"
 
         testInstrumentationRunner "androidx.test.runner.AndroidJUnitRunner"
     }

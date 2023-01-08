@@ -71,10 +71,10 @@ class AllAppsAdapter(
     override fun onBindViewHolder(holder: ViewHolder, position: Int) {
         val applicationInfo = allAppsList[position].applicationInfo
         val packageName = applicationInfo.packageName
-        var activityName =  allAppsList[position].name
-        /*resolveInfoList.forEach {
-            if (applicationInfo.packageName == packageName) activityName = it.activityInfo.name
-        }*/
+        var activityName:String = "";
+        resolveInfoList.forEach {
+            if (it.activityInfo.packageName == packageName) activityName = it.activityInfo.name
+        }
         try {
             Glide.with(context)
                 .load(applicationInfo.loadIcon(context.packageManager))
@@ -88,7 +88,8 @@ class AllAppsAdapter(
                 FreeFormView(
                     context,
                     command,
-                    packageName
+                    packageName,
+                    activityName
                 )
                 callback.onClick()
             }

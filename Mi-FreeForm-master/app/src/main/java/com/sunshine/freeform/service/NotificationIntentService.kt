@@ -48,7 +48,7 @@ class NotificationIntentService : Service() {
                 }
             }
             val command = "am start -n ${targetPackage}/${activityName} --display "
-            FreeFormView(this, command, targetPackage)
+            FreeFormView(this, command, targetPackage,activityName)
             stopSelf()
         } catch (e: PackageManager.NameNotFoundException) {
             stopSelf()

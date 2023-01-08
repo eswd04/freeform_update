@@ -111,7 +111,7 @@ class FloatingViewAdapter(
                             FreeFormView(
                                 context,
                                 command,
-                                packageName
+                                packageName,activityName
                             )
 
                             //MiFreeFormService.getClient()?.startWithMiFreeForm(packageName, command)
